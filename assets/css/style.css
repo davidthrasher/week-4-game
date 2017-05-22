@@ -7,48 +7,52 @@
 
 body{
 
-	background: url('../images/pow-star.png') ;
+	background-color:#D3D3D3;
 }
 
 .directions {
-	background-color: #ffffff;
+	background-color:white;
 	text-align: left;
-	font-family: "Arial", Times, serif;
-	font-size:25px;
-	border-style:box;
+	font-size:15px;
+	border:solid 1px red;
+	height:250px;
+
 }
 
 .score {
-	margin-top:5px;
-	font-size:30px;
-	height:100px;
+	background-color:white;
+	font-size:50px;
+	height:250px;
+	border:solid 1px red;
+	text-align:center;
 }
 
 .wins {
-	margin-top:5px;
-	font-size:30px;
-	height:100px;
+	background-color:white;
+	font-size:50px;
+	height:250px;
+	border:solid 1px red;
+	text-align:center;
 }
 
 .userscore {
-	margin-top:5px;
-	font-size:30px;
+	background-color:white;
+	margin-top:15px;
+	font-size:50px;
 	height:100px;
+	border:solid 1px red;
+	text-align:center;
 }
 
-.crys1 {
-	width:100px;
-	height:100px;
+.crys1:hover, .crys2:hover, .crys3:hover, .crys4:hover {
+	opacity:.5;
 }
-.crys2 {
-	width:100px;
-	height:100px;
+
+.crystals {
+	margin-top:15px;
+	text-align:center;
 }
-.crys3 {
-	width:100px;
-	height:100px;
-}
-.crys4 {
-	width:100px;
-	height:100px;
+
+p {
+	font-family: 'Lobster', cursive;
 }

@@ -8,7 +8,7 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css?family=Barrio|Indie+Flower" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Barrio|Lobster" rel="stylesheet">
 
 </head>
 <body>
@@ -20,28 +20,31 @@
 
   <div class="container">
     <div class="row">
-      <div class="col-md-12 directions">
-                <p>You will be given a random number at the start of the game.</p>
-                <p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p>
-                <p>You win the game by matching your total score to the random number, you lose the game if your number exceeds the random number.</p>
-                <p>Each time when the game starts, the game will change the value of each crystal. </p>
+      <div class="col-md-4 panel directions">
+              <ul style="list-style-type:circle">
+                <li><p>You will be given a random number at the start of the game.</p></li>
+                <li><p>There are four crystals below. By clicking on a crystal you will add a specific amount of points to your total score.</p></li>
+                <li><p>You win the game by matching your total score to the random number, you lose the game if your number exceeds the random number.</p></li>
+                <li><p>Each time when the game starts, the game will change the value of each crystal.</p></li>
+              </ul>
       </div>
-    <div class="row">
-        <div class="col-md-6 panel score">
+    <!-- <div class="row"> -->
+        <div class="col-md-4 panel score">
+          <p>Score to match:</p>
           <p id ="randomNumber">100</p></div>
-        <div class="col-md-6 panel wins">
+        <div class="col-md-4 panel wins">
         <p id="wins">Wins: 0</p>
         <p id="losses">Losses: 0</p>
         </div>
     </div>
     <div class="row crystals">
-        <div class = "col-md-3"><img class = "crys1" src="./assets/images/blue.png"></div>
-        <div class = "col-md-3"><img class = "crys2" src="./assets/images/green.png"></div>
-        <div class = "col-md-3"><img class = "crys3" src="./assets/images/red.png"></div>
-        <div class = "col-md-3"><img class = "crys4" src="./assets/images/yellow.png"></div>
+        <div class = "col-md-3"><img class = "crys1" src="./assets/images/blue.png" height="100px" width="100px"></div>
+        <div class = "col-md-3"><img class = "crys2" src="./assets/images/green.png" height="100px" width="100px"></div>
+        <div class = "col-md-3"><img class = "crys3" src="./assets/images/red.png" height="100px" width="100px"></div>
+        <div class = "col-md-3"><img class = "crys4" src="./assets/images/yellow.png" height="100px" width="100px"></div>
       </div>
     <div class ="row">
-          <div class ="col-md-4 panel userscore">
+          <div class ="col-md-4 col-md-offset-4 panel userscore">
               <p id = "userScore">Your Score: </p></div>
         </div>
 
